@@ -1,0 +1,14 @@
+{
+    "name": "extendscode/basic-block",
+    "title": "Basic Block (esnext) from json",
+    "textdomain": "my-first-plugin",
+    "attributes": {
+        "message": {
+            "type": "string",
+            "default": "Hello World !!!"
+        }
+    },
+    "editorScript": "file:index.js",
+    "editorStyle": "file:index.css",
+    "style": "file:style-index.css"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "my-first-plugin",
+  "version": "1.0.0",
+  "description": "Mi primer custom block's con block.json",
+  "scripts": {
+    "basic:build": "wp-scripts build src/blocks/basic/index.js --output-path=build/basic/ && cp src/blocks/basic/block.json build/basic/"
+  },
+  "author": "d3turnes",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^19.2.2"
+  }
+}

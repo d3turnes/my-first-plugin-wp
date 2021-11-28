@@ -1,0 +1,9 @@
+.wp-block-extendscode-basic-block {
+	background-color: #333;
+	color: white
+}
+
+.wp-block-extendscode-basic-block h1 { 
+	padding: 50px !important;
+    text-align: center;
+}
