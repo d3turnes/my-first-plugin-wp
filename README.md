@@ -19,14 +19,17 @@ Si quieres añadir nuevos bloques, una vez clonado el repositorio debe instalar 
 El siguiente paso será crear una nueva tarea para compilar nuestro nuevo bloque, para ello 
 edite el fichero  package.json y añada el siguiente código.
 
-`
+```js
   ...
+  
   "scripts": {
+    
     "basic:build": "wp-scripts build src/blocks/basic/index.js --output-path=build/basic/ && cp src/blocks/basic/block.json build/basic/"
-	"example:build": "wp-scripts build src/blocks/example/index.js --output-path=build/example/ && cp src/blocks/example/block.json build/basic/"
+    "example:build": "wp-scripts build src/blocks/example/index.js --output-path=build/example/ && cp src/blocks/example/block.json build/basic/"
+  
   },
   ...
-`
+```
 
 Ahora creamos la carpeta example dentro de src/blocks
 
