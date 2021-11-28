@@ -20,8 +20,7 @@ El siguiente paso será crear una nueva tarea para compilar nuestro nuevo bloque
 edite el fichero  package.json y añada el siguiente código.
 
 ```js
-  ...
-  
+  ...  
   "scripts": {    
     "basic:build": "wp-scripts build src/blocks/basic/index.js --output-path=build/basic/ && cp src/blocks/basic/block.json build/basic/"
     "example:build": "wp-scripts build src/blocks/example/index.js --output-path=build/example/ && cp src/blocks/example/block.json build/example/"
@@ -31,5 +30,5 @@ edite el fichero  package.json y añada el siguiente código.
 
 Ahora creamos la carpeta example dentro de src/blocks
 
-El último paso copie el contenido de src/blocks/basic en scr/block/example, recuerda que el nombre de los blocks
+El último paso, será copiar el contenido de src/blocks/basic en scr/block/example. Recuerda que el nombre de los blocks
 debe ser único, asegúrese de modificar los ficheros src/blocks/example/index.js y src/blocks/example/block.json
