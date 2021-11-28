@@ -24,7 +24,7 @@ edite el fichero  package.json y añada el siguiente código.
   
   "scripts": {    
     "basic:build": "wp-scripts build src/blocks/basic/index.js --output-path=build/basic/ && cp src/blocks/basic/block.json build/basic/"
-    "example:build": "wp-scripts build src/blocks/example/index.js --output-path=build/example/ && cp src/blocks/example/block.json build/èxample/"
+    "example:build": "wp-scripts build src/blocks/example/index.js --output-path=build/example/ && cp src/blocks/example/block.json build/example/"
   },
   ...
 ```
