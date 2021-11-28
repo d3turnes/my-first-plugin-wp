@@ -32,3 +32,9 @@ Ahora creamos la carpeta example dentro de src/blocks
 
 El último paso, será copiar el contenido de src/blocks/basic en scr/block/example. Recuerda que el nombre de los blocks
 debe ser único, asegúrese de modificar los ficheros src/blocks/example/index.js y src/blocks/example/block.json
+
+### Compilando el nuevo block
+
+Para compilar nuestro nuevo block, abra una nueva terminal y ejecute
+
+`npm run example:build`
